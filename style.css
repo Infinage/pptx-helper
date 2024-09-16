@@ -33,13 +33,13 @@
     border: 1px solid black;
 }
 
-.fragment-link {
+.nav-link {
     text-decoration: none;
     color: inherit;
     cursor: pointer;
 }
 
-.fragment-link:hover .shape {
+.nav-link:hover .shape, .nav-link:hover p {
     border-color: blue;
     transform: scale(1.025); 
     transition: transform 0.3s ease, border-color 0.3s ease;
@@ -55,8 +55,25 @@
     border-top: 1px solid #ccc;
 }
 
+.slide-footer p {
+    font-size: 18px;
+}
+
 .slide-id {
     margin: 0;
     font-size: 14px;
     color: #333;
+}
+
+.table-div table, tr, td {
+  border: 1px solid;
+  align-items: center; 
+}
+
+.table-cell-text {
+    min-width: 75px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
